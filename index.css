@@ -1,0 +1,21 @@
+body {background-color: #f2dede;}
+h1 {text-align: center; font-family: 'Times New Roman', Times, serif; font-weight: 700; font-size: xx-large; background-color:  rgb(249, 245, 245);}
+h3 {text-align: center;}
+div#img {text-align: center;}
+div#allnews{text-align: center;}
+
+
+  .about {background-color: rgb(249, 245, 245);
+            float: center;
+            padding: 20px;
+
+}
+
+.section{background-color: rgb(249, 245, 245);}
+
+
+
+.container{background-color: rgb(249, 245, 245);
+padding-bottom: 20px;
+float: center;}
+
