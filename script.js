@@ -39,11 +39,11 @@ if (str == strReverse) {
 
 // 3 exercise
 
-function stringCheck(string){
+function stringCheck(stri){
 
 var stri = document.getElementById("string-check").value;
 
-const uniqueCount = new Set(stri);
+const uniqueCount = new Set(stri).size;
 
 var resto= uniqueCount / 2;
 
@@ -55,7 +55,26 @@ var resto= uniqueCount / 2;
             
             }
 
+ function stringCheck1(strin, letter){
+    var strin = document.getElementById("string-check").value;
+ var count = 0
 
+ for (let i=0; i < strin.lenght; i++ ){
+
+    if (strin.charAt(i)== letter ) {
+        count += 1;
+    }
+ }
+
+var resto = count/2
+if(resto == 0) { 
+    window.alert("true");
+} else { 
+    window.alert("false");
+}
+
+
+ }
 
 
  
